@@ -1,19 +1,78 @@
+body {
+    background-color: rgba(103, 156, 226, 0.521);
+}
+
+.message {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    padding: 10px 0 0 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: rgb(22, 35, 41);
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.round {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(21, 28, 34);
+}
+
 img {
     width: 100px;
     height: auto;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 5px;
+    margin: 2px 2px 2px 2px;
 }
 
 .human {
     position: relative;
     border-style: solid;
-    width: 50%;
+    width: 49%;
     float: left;
-    height: 175px;
+    min-height: 250px;
+    height: auto;
+    background-color: rgb(20, 89, 121);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 5px;
+    margin: 1px 1px 1px 1px;
+    padding: 5px 5px 5px 5px;
 }
+
 .computer {
     position: relative;
     border-style: solid;
-    width: 50%;
+    width: 49%;
     float: left;
-    height: 175px;
+    min-height: 250px;
+    height: auto;
+    background-color: rgb(20, 89, 121);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 5px;
+    margin: 1px 1px 1px 1px;
+    padding: 5px 5px 5px 5px;
+}
+
+.open {
+    margin-top: 25px;
+}
+
+.thehood {
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 5px;
 }
