@@ -1,0 +1,19 @@
+img {
+    width: 100px;
+    height: auto;
+}
+
+.human {
+    position: relative;
+    border-style: solid;
+    width: 50%;
+    float: left;
+    height: 175px;
+}
+.computer {
+    position: relative;
+    border-style: solid;
+    width: 50%;
+    float: left;
+    height: 175px;
+}
